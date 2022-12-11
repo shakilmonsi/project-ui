@@ -1,5 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Avatar from "@mui/material/Avatar";
+import Stack from "@mui/material/Stack";
 import { Button } from "@mui/material";
 import Typography from "@mui/material/Typography";
 
@@ -41,6 +43,21 @@ function App() {
         >
           Checkout
         </Button>
+
+        <Avatar
+          alt="Remy Sharp"
+          src="https://thumbs.dreamstime.com/z/portrait-beautiful-hiding-girl-tangled-pictur-closeup-hair-green-sweater-young-sexy-woman-naked-shoulder-looking-60263671.jpg"
+          style={{
+            height: "80px",
+            width: "80px",
+          }}
+        />
+        <Avatar
+          alt="Remy Sharp"
+          src="/static/images/avatar/1.jpg"
+          sx={{ width: 56, height: 56 }}
+        />
+
         <Typography variant="h1" gutterBottom>
           h1. Heading
         </Typography>
